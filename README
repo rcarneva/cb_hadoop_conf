@@ -1,4 +1,8 @@
 sudo apt-get install git
+sudo apt-get install vim
+sudo apt-get install python-pip
+sudo pip install luigi
+
 git clone https://github.com/rcarneva/cb_hadoop_conf.git
 dpkg -i cdh4-repository_1.0_all.deb
 sudo apt-get update
