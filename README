@@ -8,3 +8,7 @@ cp *.xml hadoop-conf
 hadoop namenode -format
 sudo chmod -R a+w /var/lib/hadoop-hdfs/cache/root
 sudo apt-get install hive
+
+sudo -u hdfs hdfs dfs -chmod a+w /
+hdfs dfs -mkdir /user
+hdfs dfs -mkdir /user/user
