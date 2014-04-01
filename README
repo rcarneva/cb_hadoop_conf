@@ -4,4 +4,7 @@ dpkg -i cdh4-repository_1.0_all.deb
 sudo apt-get update
 sudo apt-get install hadoop-conf-pseudo
 cp *.xml hadoop-conf
+
+hadoop namenode -format
 sudo chmod -R a+w /var/lib/hadoop-hdfs/cache/root
+sudo apt-get install hive
